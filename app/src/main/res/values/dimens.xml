@@ -5,4 +5,6 @@
 
     <dimen name="keyLine1">16dp</dimen>
     <dimen name="keyLine2">72dp</dimen>
+    <dimen name="keyLine3">10dp</dimen>
+
 </resources>

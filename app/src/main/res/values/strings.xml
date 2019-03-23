@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Marvel</string>
+    <string name="app_name">Marvel Characters</string>
     <string name="main_title">Characters</string>
     <string name="character_label">Character:</string>
     <string name="character_hint">Enter name...</string>

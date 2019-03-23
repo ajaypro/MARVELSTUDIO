@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mirhoseini.marvel">
+    package="com.ajay.marvel">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name=".MarvelApplicationImpl"
+        android:name="com.ajay.marvel.MarvelApplicationImpl"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.SplashActivity"
+            android:name="com.ajay.marvel.activity.SplashActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.Splash" />
 
@@ -25,7 +26,7 @@
         <activity-alias
             android:name=".Launcher"
             android:label="@string/app_name"
-            android:targetActivity=".activity.SplashActivity">
+            android:targetActivity="com.ajay.marvel.activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,16 +35,16 @@
         </activity-alias>
 
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.ajay.marvel.activity.MainActivity"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
         <activity
-            android:name=".activity.CharacterActivity"
+            android:name="com.ajay.marvel.activity.CharacterActivity"
             android:label="@string/app_name"
-            android:parentActivityName=".activity.MainActivity">
+            android:parentActivityName="com.ajay.marvel.activity.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.mirhoseini.marvel.activity.MainActivity" />
+                android:value="com.ajay.marvel.activity.MainActivity" />
         </activity>
     </application>
 

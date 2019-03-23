@@ -5,13 +5,13 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
-        applicationId "com.mirhoseini.marvel"
+        applicationId "com.ajay.marvel"
 
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.compileSdkVersion
 
-        versionCode 2
-        versionName "1.0.1"
+        versionCode 1
+        versionName "1.0"
 
         vectorDrawables.useSupportLibrary = true
 
@@ -21,7 +21,7 @@ android {
 
         /* replaced with custom MockTestRunner */
         // testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        testInstrumentationRunner "com.mirhoseini.marvel.MarvelTestRunner"
+        testInstrumentationRunner "com.ajay.marvel.MarvelTestRunner"
     }
 
     buildTypes {
@@ -79,7 +79,7 @@ task grantAnimationPermissions(type: Exec, dependsOn: 'installMock') {
     description = 'Grant permissions for testing.'
 
     def absolutePath = file('..') // Get project absolute path
-    commandLine "$absolutePath/set_animation_permissions.sh com.mirhoseini.marvel".split(" ")
+    commandLine "$absolutePath/set_animation_permissions.sh com.ajay.marvel".split(" ")
 }
 
 // Source: http://stackoverflow.com/q/29908110/112705
@@ -145,8 +145,9 @@ dependencies {
 
     implementation "com.j256.ormlite:ormlite-android:$ormLiteVersion"
 
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+
     implementation "com.google.firebase:firebase-core:$firebaseVersion"
-    implementation "com.google.firebase:firebase-crash:$firebaseVersion"
 }
 
 apply plugin: 'com.google.gms.google-services'

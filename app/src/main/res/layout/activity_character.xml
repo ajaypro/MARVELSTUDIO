@@ -7,7 +7,7 @@
 
         <variable
             name="character"
-            type="com.mirhoseini.marvel.database.model.CharacterModel" />
+            type="com.ajay.marvel.database.model.CharacterModel" />
     </data>
 
     <LinearLayout
@@ -30,7 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                tools:context="com.mirhoseini.marvel.view.activity.CharacterActivity">
+                tools:context="com.ajay.marvel.view.activity.CharacterActivity">
 
                 <ImageView
                     android:id="@+id/image"

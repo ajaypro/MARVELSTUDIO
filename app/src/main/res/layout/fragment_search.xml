@@ -26,11 +26,12 @@
         android:layout_weight="1"
         android:hint="@string/character_hint"
         android:imeOptions="actionSearch"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"/>
 
     <Button
         android:id="@+id/show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="@dimen/keyLine3"
         android:text="@string/show" />
 </LinearLayout>

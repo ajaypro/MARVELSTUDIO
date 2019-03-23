@@ -1,71 +1,27 @@
 {
   "project_info": {
-    "project_number": "917870933295",
-    "firebase_url": "https://marvel-ce492.firebaseio.com",
-    "project_id": "marvel-ce492",
-    "storage_bucket": "marvel-ce492.appspot.com"
+    "project_number": "440604215267",
+    "firebase_url": "https://marvel-3fa92.firebaseio.com",
+    "project_id": "marvel-3fa92",
+    "storage_bucket": "marvel-3fa92.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:917870933295:android:afd252c6d1e2f461",
+        "mobilesdk_app_id": "1:440604215267:android:b2e5c5db4c55176b",
         "android_client_info": {
-          "package_name": "com.mirhoseini.marvel"
+          "package_name": "com.ajay.marvel.debug"
         }
       },
       "oauth_client": [
         {
-          "client_id": "917870933295-mksnhq4ur5eme6ih1k3entbi796pv4le.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.mirhoseini.marvel",
-            "certificate_hash": "430B0413C05B949C205BC212DC084CA5DAF25D3B"
-          }
-        },
-        {
-          "client_id": "917870933295-657emgd5pnl2j8lpkfk87unefkub69ol.apps.googleusercontent.com",
+          "client_id": "440604215267-fkurq5i8t0878l0hv7p3j8v49gk3aim8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBdbZt2_S2y2-jYVn7xfeyAwMAN7ePfTD0"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "917870933295-657emgd5pnl2j8lpkfk87unefkub69ol.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:917870933295:android:f40c157f10d0958b",
-        "android_client_info": {
-          "package_name": "com.mirhoseini.marvel.debug"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "917870933295-657emgd5pnl2j8lpkfk87unefkub69ol.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBdbZt2_S2y2-jYVn7xfeyAwMAN7ePfTD0"
+          "current_key": "AIzaSyDYyAJAgfA0lp2XhRdxEiurAMF8flmboMM"
         }
       ],
       "services": {

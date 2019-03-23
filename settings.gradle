@@ -1,5 +1,4 @@
-include ':marvel-app', ':marvel-core', ':marvel-console'
+include ':marvelstudio-app', ':marvel-core'
 
-project(':marvel-app').projectDir = new File('app')
+project(':marvelstudio-app').projectDir = new File('app')
 project(':marvel-core').projectDir = new File('core-lib')
-project(':marvel-console').projectDir = new File('console')
