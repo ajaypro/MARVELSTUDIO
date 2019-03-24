@@ -1,14 +1,9 @@
 language: android
-
-jdk: oraclejdk8
-
-sudo: required
-
 env:
   global:
-   - ANDROID_API_LEVEL=27
-   - ANDROID_BUILD_TOOLS_VERSION=27.0.3
-   - ANDROID_EMU_API_LEVEL=27
+   - ANDROID_API_LEVEL=28
+   - ANDROID_BUILD_TOOLS_VERSION=28.0.8
+   - ANDROID_EMU_API_LEVEL=28
    - ANDROID_ABI=x86
 
 before_install:
@@ -30,6 +25,7 @@ android:
 licenses:
   - '.+'
 
+
 before_script:
   - android list targets
 #  - echo no | android create avd --force -n test -t android-$ANDROID_EMU_API_LEVEL --abi google_apis/$ANDROID_ABI
@@ -39,6 +35,3 @@ before_script:
 
 script:
   - ./gradlew assemble # build createMockDebugCoverageReport jacocoTestReport
-
-#after_success:
-#  - bash <(curl -s https://codecov.io/bash)
